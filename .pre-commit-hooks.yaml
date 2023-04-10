@@ -1,5 +1,5 @@
 - description: Check AsyncAPI yaml for validity
-  entry: michalklempa/asyncapi-cli:0.37.1-01
+  entry: michalklempa/asyncapi-cli:0.37.1-02 asyncapi
   files: (asyncapi).*\.(json|ya?ml)$
   id: asyncapi-cli
   language: docker_image
