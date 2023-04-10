@@ -1,0 +1,7 @@
+- description: Check AsyncAPI yaml for validity
+  entry: michalklempa/asyncapi-cli:latest
+  files: (asyncapi).*\.(json|ya?ml)$
+  id: asyncapi-cli
+  language: docker_image
+  name: Check AsyncAPI yaml for validity
+  stages: [ commit, push, manual ]
